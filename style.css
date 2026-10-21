@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+.Shapka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #222;
+    color: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffa502;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.nav a:hover {
+    color: #ffa502;
+}
+
+.glavniekran {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff7e6;
+}
+
+.GlavZagolovok {
+    font-size: 48px;
+    color: #d63031;
+    margin-bottom: 10px;
+}
+
+.Podzagolovok {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.MEMFOTO {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 30px;
+    background-image: url('images.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 4px solid #d63031;
+    border-radius: 10px;
+}
+
+.Knopka {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffa502;
+    color: #222;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.Knopka:hover {
+    background-color: #ffbe33;
+}
+
+.Sekcia {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.SekciaS {
+    background-color: #f5f5f5;
+    max-width: 100%;
+    padding: 60px 20px;
+}
+
+.SekciaS > * {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Zagolovok {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.Tekst {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.Citata {
+    margin-top: 25px;
+    padding: 20px;
+    border-left: 4px solid #ffa502;
+    background-color: #fff7e6;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+.Avtor {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #888;
+    font-style: normal;
+}
+
+.Kartochki {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.Kartochka {
+    flex: 1 1 240px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+.Ikona {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.KartochkaZagolovok {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #d63031;
+}
+
+.KartochkaTekst {
+    font-size: 15px;
+    color: #555;
+}
+
+.Sovety {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Sovet {
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border-left: 4px solid #d63031;
+}
+
+.Podval {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 25px 20px;
+    font-size: 14px;
+}
+
+.PodvalTekst {
+    margin: 0;
+}
+
